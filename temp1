@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            color: black;
+            font-size: larger;
+
+        }
+
+        .nav {
+            background-image: url("https://raw.githubusercontent.com/frontendmentorio/room-homepage/master/images/desktop-image-hero-1.jpg");
+            background-repeat: no-repeat;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        a {
+
+            margin-left: 60px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .sec {
+            background: url("https://raw.githubusercontent.com/frontendmentorio/room-homepage/master/images/image-about-dark.jpg") no-repeat;
+         
+            width: 80%;
+            height: 250px;
+        }
+
+        .txt h2 {
+            color: black;
+        }
+
+        .txt {
+            float: right;
+        }
+
+        .txt p {
+            color: black;
+            opacity: 0.5;
+        }
+.container{
+    width: 50%;
+    height:100px;
+    margin-left: 20px;
+    margin-right: 800px;
+}
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <div class="nav">
+            <div class="nav-li">
+                <ul>
+                    <a href="./HOME.html" class="nav-li-item">Room</a>
+                    <a href="./About.html" class="nav-li-item">Home</a>
+                    <a href="#" class="nav-li-item">Shop</a>
+                    <a href="#" class="nav-li-item">About</a>
+                    <a href="#" class="nav-li-item">Contact</a>
+                </ul>
+            </div>
+        </div>
+    </head>
+    <section class="d-flex flex-row align-content-start">
+        <div class="sec ">
+
+        </div>
+        <div class="container mt-3">
+                  
+            <div class="p-2 border">
+                <h2>
+                    ABOUT OUR FURNITURE
+                </h2>
+                <p>
+                    Our malfunctionedcollection blends design and function to suit your taste, make each room unique or
+                    pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you
+                    need from traditional to contemporary styles or anything in between. Product specialitis are availaible
+                    to help you reat you dream space.
+                </p>
+            
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
